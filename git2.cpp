@@ -22,3 +22,13 @@ void createFile(const string& filename) {
     cout << "Создан файл: " << filename << endl;
 }
 
+int main() {
+    srand(time(0));
+
+    createFile("file1.txt");
+    createFile("file2.txt");
+    createFile("file3.txt");
+
+    return 0;
+}
+
